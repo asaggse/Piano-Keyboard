@@ -1,0 +1,29 @@
+.piano {
+    display: flex;
+}
+
+.piano-key_white {
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.piano-key_white:hover {
+    cursor: pointer;
+    background-color: #CCC;
+}
+
+.piano-key_black {
+    width: 60px;
+    height: 180px;
+    background-color: black;
+    margin-left: -25px;
+    margin-right: -25px;
+    z-index: 2;
+}
+
+.piano-key_black:hover {
+    cursor: pointer;
+    background-color: #333;
+}

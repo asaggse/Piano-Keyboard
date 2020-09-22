@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Piano Keyboard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="text-center">Piano Keyboard</h1>
+
+    <div class="container text-center">
+        <div class="card my-3">
+            <div class="card-body">
+                <div class="text-center" id="display"></div>
+            </div>
+    </div>
+    
+    <div class="container text-center">
+        <div class="piano">
+            <div class="btn piano-key_white" onClick="play('1C')" data-note="1C">
+                <audio id="1C" src="medias/1C.wav"></audio>
+            </div>
+            <a class="btn piano-key_black" onClick="play('1Db')" data-note="1Db">
+                <audio id="1Db" src="medias/1Db.wav"></audio>
+            </a>
+            <div class="btn piano-key_white" onClick="play('1D')" data-note="1D">
+                <audio id="1D" src="medias/1D.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('1Eb')" data-note="1Eb">
+                <audio id="1Eb" src="medias/1Eb.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('1E')" data-note="1E">
+                <audio id="1E" src="medias/1E.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('1F')" data-note="1F">
+                <audio id="1F" src="medias/1F.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('1Gb')" data-note="1Gb">
+                <audio id="1Gb" src="medias/1Gb.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('1G')" data-note="1G">
+                <audio id="1G" src="medias/1G.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('1Ab')" data-note="1Ab">
+                <audio id="1Ab" src="medias/1Ab.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('1A')" data-note="1A">
+                <audio id="1A" src="medias/1A.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('1Bb')" data-note="1Bb">
+                <audio id="1Bb" src="medias/1Bb.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('1B')" data-note="1B">
+                <audio id="1B" src="medias/1B.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('2C')" data-note="2C">
+                <audio id="2C" src="medias/2C.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('2Db')" data-note="2Db">
+                <audio id="2Db" src="medias/2Db.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('2D')" data-note="2D">
+                <audio id="2D" src="medias/2D.wav"></audio>
+            </div>
+            <div class="btn piano-key_black" onClick="play('2Eb')" data-note="2Eb">
+                <audio id="2Eb" src="medias/2Eb.wav"></audio>
+            </div>
+            <div class="btn piano-key_white" onClick="play('2E')" data-note="2E">
+                <audio id="2E" src="medias/2E.wav"></audio>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js" charset="utf-8"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
